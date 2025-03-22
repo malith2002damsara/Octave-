@@ -1,0 +1,8 @@
+name = "Malith Damsara";
+index = "22000275";
+
+count = 1;
+while count <= 70
+    fprintf('%d: %s - %s\n', count, name, index);
+    count = count + 1;
+end

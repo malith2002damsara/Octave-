@@ -1,0 +1,10 @@
+number = 133;
+divisor = 7;
+
+if mod(number, divisor) == 0
+    fprintf('%d IS divisible by %d\n', number, divisor);
+elseif mod(number, divisor) ~= 0
+    fprintf('%d is NOT divisible by %d\n', number, divisor);
+else
+    fprintf('An error occurred while checking divisibility.\n');
+end

@@ -1,0 +1,7 @@
+school_name = "Piliyandala Central Collage";
+
+count = 1;
+do
+    fprintf('%d: %s\n', count, school_name);
+    count = count + 1;
+until count > 100

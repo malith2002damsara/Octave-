@@ -1,0 +1,6 @@
+fprintf('Square of the first 7 even numbers:\n');
+for i = 1:7
+    even_number = 2 * i; 
+    square = even_number^2;
+    fprintf('Even number: %d, Square: %d\n', even_number, square);
+end
